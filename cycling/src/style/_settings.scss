@@ -1,0 +1,27 @@
+
+@font-face {
+    font-family: roboto;
+    src: url("../assets/font/Roboto-Regular.ttf");
+}
+@font-face {
+    font-family: montserrat;
+    src: url("../assets/font/Montserrat-Medium.ttf");
+}
+
+$fontM:montserrat;
+$font1:roboto;
+
+$color1:#A69E8D;
+$white:white;
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: $fontM;
+}
+
+body{
+    text-align: center;
+}
