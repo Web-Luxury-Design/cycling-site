@@ -1,0 +1,70 @@
+.footer{
+    text-align: left;
+    padding: 60px 50px 5px;
+    font-family: $font1;
+    position: relative;
+    z-index: 100;
+
+    .footer-container{
+        display: grid;
+        grid-template-columns: repeat(5,1fr);
+        align-items: baseline;
+        justify-content: center;
+        margin-bottom: 60px;
+        z-index: 2;
+
+        h3{
+            margin-bottom: 15px;
+        }
+        .contain{
+            border-right: 1px solid $white;
+            height: 180px;
+            padding: 0 0 0 15px ;
+            ul{
+                display: flex;
+                flex-direction: column;
+                gap: 8px;
+                color: rgba(255, 255, 255, 0.8);
+            }
+        }
+        .logo-footer{
+            padding: 0 0 0 15px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            gap: 30px;
+            .logo{
+                margin-right: 0;
+            }
+        }
+    }
+
+    .signature-infos{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        align-items: baseline;
+        justify-content: center;
+        text-align: center;
+        padding: 10px 0 15px;
+        color:rgba(255, 255, 255, 0.7);
+
+        .terme{
+            display: flex;
+            gap: 10px;
+            margin-left: 50px;
+            li{
+                border-right: 1px solid;
+                padding-right: 20px;
+                &:last-child{
+                    border: none;
+                    padding: none;
+                }
+            }
+        }
+        span{
+          color: $white;  
+        }
+    }
+}
